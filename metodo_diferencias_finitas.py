@@ -36,4 +36,7 @@ for n in range(1000):
 #Configuración de gráfica
 plt.contourf(x,y,V,50,cmap='plasma')
 plt.colorbar()
+plt.title("V(x,y) (Volts)",fontname="cambria",size =16)
+plt.xlabel("X(cm)",fontname="cambria",size =12)
+plt.ylabel("Y(cm)",fontname="cambria",size =12)
 plt.show()
